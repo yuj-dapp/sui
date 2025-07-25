@@ -1,0 +1,11 @@
+{
+  "name": "evm-mock",
+  "scripts": {
+    "compile": "hardhat compile"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-viem": "^4.1.0",
+    "@types/bun": "^1.2.19",
+    "hardhat": "^2.26.1"
+  }
+}
