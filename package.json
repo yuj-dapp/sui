@@ -1,11 +1,14 @@
 {
   "name": "evm-mock",
-  "scripts": {
-    "compile": "hardhat compile"
-  },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox-viem": "^4.1.0",
     "@types/bun": "^1.2.19",
+    "@types/minimatch": "^6.0.0",
+    "dotenv": "^17.2.1",
     "hardhat": "^2.26.1"
+  },
+  "scripts": {
+    "compile": "hardhat compile",
+    "migrate": "npx hardhat run scripts/deploy.ts --network sepolia"
   }
 }
