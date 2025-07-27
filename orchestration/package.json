@@ -1,0 +1,7 @@
+{
+  "name": "orchestration",
+  "dependencies": {
+    "@mysten/sui": "^1.37.0",
+    "viem": "^2.33.1"
+  }
+}
